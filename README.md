@@ -1,3 +1,21 @@
 ## Spring Boot Basic
 
-Lets see what we can do here ...
+### GraphQL
+
+Simplest graphql query
+
+```
+query {
+    greeting 
+}
+```
+
+returns
+
+```
+{
+    "data": {
+        "greeting": "Hello"
+    }
+}
+```
